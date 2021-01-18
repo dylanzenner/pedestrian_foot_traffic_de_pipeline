@@ -1,7 +1,5 @@
 # Melbourne Australia Pedestrian Foot Traffic DE Pipeline
 
-# SF-Business Closures DE Pipeline
-
 Tracking pedestrian foot traffic in Melbourne across year, month, day, time and location. Completely hosted in the AWS ecosystem including a dashboard which will be built with Tableau.
 
 **If you would like to replicate this project follow the README.md file in the cfn directory.**
@@ -23,7 +21,7 @@ The project is housed in the AWS ecosystem and utilizes the following resources:
 
 **EC2:**
 
--   t2.micro - Resource used to SSH into the DocumentDB database
+-   t2.micro ***(autoscaling)*** - Resource used to SSH into the DocumentDB database
 -   m5.4xlarge - Resource used for hosting Tableau Server
 
 **DocumentDB:**
