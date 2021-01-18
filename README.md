@@ -29,10 +29,9 @@ The project is housed in the AWS ecosystem and utilizes the following resources:
 -   Engine version 4.0.0
 - db.t3.medium: Resource used for the primary and secondary instances of the database
 
-**3 Lambda Functions:**
+**2 Lambda Functions:**
 -   1 for pulling data from the API and sending it to an SQS Queue
 -   1 for transforming the data, loading it to DocumentDB
--   1 for automatic retry of failed SQS messages
 
 **SQS with a dead-letter queue:**
 -   For receiving data in batches from the API
