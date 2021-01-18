@@ -9,7 +9,7 @@ Tracking pedestrian foot traffic in Melbourne across year, month, day, time and 
 
 
 ## Architecture
-![](architecture/.png)
+![](architecture/pedestrian_foot_traffic_concept_architecture_diagram.png)
 
 Data is sourced from Melbourne's Open Data API (https://dev.socrata.com/foundry/data.melbourne.vic.gov.au/b2ak-trbp) and (https://dev.socrata.com/foundry/data.melbourne.vic.gov.au/h57g-5234) as JSON documents containing information on pedestrian foot traffic and sensor locations. A series of Lambda functions orchestrate the data movement and transformations throughout the pipeline. The presentation layer will be created using Amazon Tableau.
 
